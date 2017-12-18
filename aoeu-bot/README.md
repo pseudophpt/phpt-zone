@@ -4,4 +4,6 @@ This is an auto-typer for https://typing-speed-test.aoeu.eu/
 
 `aoeu-bot2.js`: Automatically enters all characters you type as correct in a hidden box.
 
-To use this bot, inspect element and copy the code in. Tested working on Mozilla Firefox on Arch.
+To use this bot, inspect element and copy the code in console. Tested working on Mozilla Firefox on Arch.
+
+**Note**: You should not, under any circumstances, paste code whose **content you don't trust or understand** into your console. Please read the scripts before running them in your browser. That being said, I have no legal liability for any of the consequences caused by this script under GPLv3. That doesn't mean I'm evil though ;)
