@@ -1,6 +1,6 @@
 /* Details */
 
-prompt("aoeu auto-typer by pseudophpt 2017 for lulz. 5 seconds after selecting cpm, it will start auto-typing.");
+alert("aoeu auto-typer by pseudophpt 2017 for lulz. after selecting cpm, it will start auto-typing.");
 
 /* Ask user for CPM */
 
@@ -17,7 +17,6 @@ var words_array = document.getElementById("wordsbox").innerHTML.replace(/<(?:.|\
 
 /* For each word in the array, type it */
 async function bot () { 
-    await sleep(5000);
     for (var i = 0; i < words_array.length; i ++) {
         var word = words_array[i];
         for (var j = 0; j < word.length; j++) {
